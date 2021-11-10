@@ -8,16 +8,16 @@
         <link rel="stylesheet" href="css/styleGlobal.css">
         <link rel="stylesheet" href="css/style.css">
         <title>
-            <c:if test="${seminario.id==0}">Nuevo Aviso</c:if>
-            <c:if test="${seminario.id!=0}">Editar Aviso</c:if>
+            <c:if test="${seminario.id==0}">Nuevo Seminario</c:if>
+            <c:if test="${seminario.id!=0}">Editar Seminario</c:if>
         </title>
     </head>
     <body>
         <section>
             <div class="contenedor-formulario">
                 <h1 class="formulario-titulo">
-                    <c:if test="${seminario.id==0}">Nuevo Aviso</c:if>
-                    <c:if test="${seminario.id!=0}">Editar Aviso</c:if>
+                    <c:if test="${seminario.id==0}">Nuevo Seminario</c:if>
+                    <c:if test="${seminario.id!=0}">Editar Seminario</c:if>
                 </h1>
                 <div class="formulario-logo"><img src="css/imagen/exposicion.png" alt=""></div>
                 <form action="Inicio" class="formulario fondo-azul" method="POST">
